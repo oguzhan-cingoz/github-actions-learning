@@ -1,7 +1,7 @@
-name: learn-github-actions
+name: first-pipeline
 on: [push]
 jobs:
-  check-bats-version:
+  first-job:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
